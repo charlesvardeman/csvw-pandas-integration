@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://charlesvardeman.github.io/csvw-pandas-integration/core.html</loc>
+    <lastmod>2023-04-13T14:06:52.428Z</lastmod>
+  </url>
+  <url>
+    <loc>https://charlesvardeman.github.io/csvw-pandas-integration/index.html</loc>
+    <lastmod>2023-04-13T14:06:52.935Z</lastmod>
+  </url>
 </urlset>

@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "foo\n\n foo ()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "csvw-pandas-integration",
+    "section": "",
+    "text": "This package aims to provide a seamless experience for users working with CSVW metadata in data analysis environments using pandas, nbdev, and dvc. It includes a CsvwManager class that handles loading, saving, and applying CSVW metadata to pandas DataFrames while integrating with nbdev for development and dvc for version control."
+  },
+  {
+    "objectID": "index.html#installation",
+    "href": "index.html#installation",
+    "title": "csvw-pandas-integration",
+    "section": "Installation",
+    "text": "Installation\nYou can install the package using pip:\npip install csvw_pandas_integration"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "csvw-pandas-integration",
+    "section": "How to use",
+    "text": "How to use\nHere’s a basic example of how to use CsvwManager to load a DataFrame from a CSV file and its corresponding CSVW metadata file:\nfrom your_project.csvw_manager import CsvwManager\n\n# Initialize CsvwManager with paths to data and metadata files\ncsvw_manager = CsvwManager(csv_file='data.csv', metadata_file='data.csv-metadata.json')\n\n# Load data from CSV file and apply CSVW metadata\ndf = csvw_manager.load_dataframe()\n\n# Perform data analysis and transformations using pandas\n# ...\n\n# Save changes to the DataFrame and metadata, versioned with dvc\ncsvw_manager.save_dataframe(df)"
+  },
+  {
+    "objectID": "index.html#features",
+    "href": "index.html#features",
+    "title": "csvw-pandas-integration",
+    "section": "Features",
+    "text": "Features\n\nLoading and saving DataFrames with CSVW metadata\nApplying CSVW metadata to pandas DataFrames\nGenerating and validating CSVW metadata\nIntegrating with nbdev for development and dvc for version control"
+  },
+  {
+    "objectID": "index.html#contributing",
+    "href": "index.html#contributing",
+    "title": "csvw-pandas-integration",
+    "section": "Contributing",
+    "text": "Contributing\nWe welcome contributions to the project! Please submit issues and pull requests on our GitHub repository."
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "csvw-pandas-integration",
+    "section": "License",
+    "text": "License\nThis project is licensed under the MIT License. See the LICENSE file for more details."
+  }
+]
