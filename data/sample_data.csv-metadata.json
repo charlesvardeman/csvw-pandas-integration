@@ -1,0 +1,54 @@
+{
+    "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+    "url": "sample_data.csv",
+    "dc:title": "Drone CO2 Data Collection",
+    "dc:description": "A sample dataset of CO2 concentrations (in ppm) measured by a drone at different locations and altitudes.",
+    "dc:creator": {
+      "schema:name": "Dr. Jane Doe",
+      "schema:email": "jane.doe@example.com",
+      "schema:affiliation": "Example Research Institute"
+    },
+    "dc:license": "https://creativecommons.org/licenses/by/4.0/",
+    "dc:issued": {"@value": "2023-04-13", "@type": "xsd:date"},
+    "tableSchema": {
+      "columns": [
+        {
+          "name": "timestamp",
+          "titles": "Timestamp",
+          "dc:description": "The date and time of the data collection",
+          "datatype": "dateTime",
+          "required": true
+        },
+        {
+          "name": "latitude",
+          "titles": "Latitude",
+          "dc:description": "The latitude of the drone's location",
+          "datatype": "number",
+          "required": true
+        },
+        {
+          "name": "longitude",
+          "titles": "Longitude",
+          "dc:description": "The longitude of the drone's location",
+          "datatype": "number",
+          "required": true
+        },
+        {
+          "name": "altitude",
+          "titles": "Altitude",
+          "dc:description": "The altitude of the drone in meters",
+          "datatype": "integer",
+          "required": true
+        },
+        {
+          "name": "co2_ppm",
+          "titles": "CO2 Concentration",
+          "dc:description": "The concentration of CO2 in parts per million (ppm)",
+          "datatype": "integer",
+          "required": true
+        }
+      ],
+      "primaryKey": "timestamp"
+    }
+  }
+  
